@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Site</title>
+    <style>
+        body {
+            background: lime;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            color: yellow;
+            margin: 0;
+            padding: 0;
+            animation: spin 10s infinite linear;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        h1 {
+            font-size: 60px;
+            color: hotpink;
+            text-align: center;
+            text-shadow: 2px 2px 0 red;
+            background: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+            padding: 20px;
+            border: 5px dotted cyan;
+            animation: blink 0.5s infinite alternate;
+        }
+
+        @keyframes blink {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        marquee {
+            font-size: 24px;
+            background-color: orange;
+            color: purple;
+            padding: 10px;
+            border: 3px double green;
+        }
+
+        .button {
+            background: radial-gradient(circle, red, orange, yellow);
+            border: 5px dashed magenta;
+            color: black;
+            padding: 20px;
+            font-size: 30px;
+            margin: 50px;
+            cursor: none;
+            box-shadow: inset 10px 10px 10px blue;
+        }
+
+        img {
+            width: 300px;
+            transform: rotate(30deg);
+            border-radius: 50%;
+            border: 10px groove pink;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr 1.5fr;
+            gap: 40px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>WELCOME TO MY COOL WEBSITE</h1>
+
+    <marquee behavior="alternate" direction="left">Buy my things!!! Or else.</marquee>
+
+    <div class="container">
+        <div><img src="https://www.placecage.com/300/300" alt="Nicolas Cage" /></div>
+        <div>
+            <p style="font-size: 22px; background: purple; color: white; padding: 10px;">
+                This text is centered... or is it? Welcome to my Web 1.0 homepage!!! I learned HTML yesterday, am I cool
+                now?
+            </p>
+            <button class="button">CLICK ME (Nothing happens)</button>
+        </div>
+        <div><img src="https://www.placecage.com/c/300/301" alt="More Cage" /></div>
+    </div>
+    <div id="popupAd" style="
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    background: yellow;
+    border: 5px dotted red;
+    z-index: 9999;
+    font-family: 'Comic Sans MS', cursive;
+    color: blue;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 30px magenta;
+    transform: rotate(-2deg);
+    animation: wiggle 1s infinite alternate;
+    @keyframes pulse {
+  from { transform: translateX(-50%) scale(1); }
+  to   { transform: translateX(-50%) scale(1.05); }
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-3px); }
+  100% { transform: translateX(0); }
+}">
+        <h2 style="font-size: 36px; margin: 0;">🔥 OMG HUGE SALE! 🔥</h2>
+        <p style="font-size: 24px;">You've been selected to win a FREE pair of Crocs!</p>
+        <button onclick="document.getElementById('popupAd').style.display='none'" style="
+      margin-top: 20px;
+      font-size: 18px;
+      background: fuchsia;
+      color: white;
+      border: 3px dashed black;
+      padding: 10px 20px;
+      cursor: crosshair;
+    ">Close This (but you'll regret it)</button>
+    </div>
+    <div id="iphonePopup" style="
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%) rotate(1deg);
+    width: 380px;
+    background: linear-gradient(to right, gold, pink);
+    border: 6px double red;
+    z-index: 9999;
+    font-family: 'Comic Sans MS', cursive;
+    color: darkblue;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 30px red;
+    animation: pulse 1s infinite alternate;
+  ">
+        <h2 style="font-size: 36px; margin: 0;">📱 WIN A FREE iPHONE 15!</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/768px-Apple_logo_black.svg.png"
+            alt="iPhone" style="width: 80px; margin: 20px auto;" />
+        <p style="font-size: 20px;">
+            You are the <b style="background: black; color: lime;">999,999th</b> visitor!
+            <br><br>
+            Claim your iPhone <b>NOW</b> before it's too late!
+        </p>
+        <button
+            onclick="document.getElementById('iphonePopup').style.display='none'; document.body.style.overflow='auto';"
+            style="
+      margin-top: 20px;
+      font-size: 20px;
+      background: red;
+      color: white;
+      border: 3px dashed black;
+      padding: 10px 25px;
+      cursor: grab;
+      animation: shake 0.5s infinite;
+    ">Claim Prize 🎁</button>
+    </div>
+
+    <script>
+        // Disable scroll when popup is active
+        document.body.style.overflow = 'hidden';
+    </script>
+
+    <marquee behavior="slide" direction="right" scrollamount="30">This is my footer i guess</marquee>
+</body>
+
+</html>
