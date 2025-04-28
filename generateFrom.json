@@ -1,0 +1,39 @@
+{
+  "generateFrom": [
+    {
+      "topic": "the top tech trends of 3025",
+      "title": "These are the top tech trends of 3025 so far (number 5 will blow you away)",
+      "tags": ["Tech", "AI", "Quantum"]
+    },
+    {
+      "topic": "the best places to retire to retire to in 3025",
+      "title": "About to retire? These are the most affordable places to live.",
+      "tags": ["Finance", "Retirement", "Wealth"]
+    },
+    {
+      "topic": "the best ways to make money in 3025",
+      "title": "Forget intergalactic Door Dash! These are the hottest side hustles of 3025 (Yes they are legal).",
+      "tags": ["Hustle", "Grind", "Wealth"]
+    },
+    {
+      "topic": "the rare neptunian slime embargo",
+      "title": "Will king Glorpshier IV end the embargo? What will this do to the robotic trout population?",
+      "tags": ["GlorpshierIV", "Neptune", "Embargo"]
+    },
+    {
+      "topic": "the top 10 places to eat on mars",
+      "title": "Visiting Mars? These are the 10 best places to eat.",
+      "tags": ["Mars", "Food", "Travel"]
+    },
+    {
+      "topic": "uploading yourself vs staying a human",
+      "title": "Upload Yourself: Why Some Still Choose to Stay Flesh-and-Blood?",
+      "tags": ["Tech", "Science", "Lifestyle"]
+    },
+    {
+      "topic": "universal thought translation vs spoken language",
+      "title": "The End of Languages? How Universal Thought-Translation Is Reshaping Communication",
+      "tags": ["AI", "Thought-Translation", "Tech"]
+    }
+  ]
+}

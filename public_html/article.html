@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -24,104 +24,75 @@
       </div>
     </header>
 
-    <!-- Article Section -->
-    <main class="max-w-4xl mx-auto px-4 mt-24">
-      <article class="bg-white p-6 rounded-lg shadow">
-        <!-- Title -->
-        <h1 class="text-3xl font-bold mb-2" id="14414">Sustainable Living</h1>
-        <!-- Metadata -->
-        <div class="text-sm text-gray-500 mb-4">
-          By Chet Jeapety· April 22, 2025
+    <div class="flex pt-24 max-w-[1800px] mx-auto">
+      <!-- Left Banner -->
+      <aside class="hidden lg:block w-1/6 pl-16">
+        <div class="sticky top-24 space-y-6" id="left-banner">
+          <!-- Ads here-->
         </div>
-        <!-- Feature Image -->
-        <img
-          src="https://cdn.britannica.com/42/91642-050-332E5C66/Keukenhof-Gardens-Lisse-Netherlands.jpg"
-          alt="Championship Game"
-          class="rounded mb-6"
-        />
+      </aside>
 
-        <!-- Article Content -->
-        <div class="space-y-4 text-gray-800 leading-relaxed">
-          <p>
-            Sustainable living is a lifestyle that aims to reduce an
-            individual's or society's use of the Earth's natural resources and
-            personal resources. It is often associated with environmental
-            conservation, but it also includes economic and social
-            sustainability. At its core, sustainable living means making
-            intentional choices to minimize one’s environmental impact while
-            promoting well-being for both current and future generations.
-          </p>
+      <!-- Article Section -->
+      <main class="max-w-4xl mx-auto px-4 mt-2">
+        <article class="bg-white p-6 rounded-lg shadow">
+          <!-- Title -->
+          <h1 class="text-3xl font-bold mb-2" id="title">Sustainable Living</h1>
+          <!-- Metadata -->
+          <div class="text-sm text-gray-500 mb-4" id="author-date">Author</div>
+          <!-- TLDR -->
+          <div class="text-sm text-gray-500 mb-4" id="tldr">
+            Short on time?
+            <a
+              href="#"
+              class="text-blue-600 hover:text-blue-700"
+              onclick="return confirm('Daily Pulse would like to access your neuralink.');"
+              >Transfer this article to my consciousness through my
+              neuralink.</a
+            >
+          </div>
+          <!-- Feature Image -->
+          <img src="" alt="Championship Game" class="rounded mb-6" id="image" />
 
-          <p>
-            One of the most effective ways to live sustainably is by reducing
-            waste. This can be achieved through practices like recycling,
-            composting, and choosing reusable products over disposable ones. For
-            example, using cloth bags instead of plastic, stainless steel water
-            bottles instead of single-use plastics, and opting for bulk foods to
-            cut down on packaging waste are all small changes that can lead to a
-            big impact.
-          </p>
+          <!-- Article Content -->
+          <div
+            class="space-y-4 text-gray-800 leading-relaxed"
+            id="article-content"
+          ></div>
 
-          <p>
-            Energy conservation is another crucial component of sustainable
-            living. Switching to energy-efficient appliances, turning off lights
-            when not in use, and investing in renewable energy sources like
-            solar or wind power can significantly reduce carbon footprints. Even
-            simple steps, like adjusting your thermostat or using natural light
-            during the day, contribute to a more sustainable lifestyle.
-          </p>
+          <!-- Tags / Links -->
+          <div class="mt-6 flex flex-wrap items-center gap-2" id="tags">
+            <span class="text-sm bg-blue-100 text-blue-600 px-2 py-1 rounded"
+              >#Sports</span
+            >
+            <span class="text-sm bg-blue-100 text-blue-600 px-2 py-1 rounded"
+              >#Football</span
+            >
+            <span class="text-sm bg-blue-100 text-blue-600 px-2 py-1 rounded"
+              >#Championship</span
+            >
+          </div>
+        </article>
 
-          <p>
-            Transportation choices also play a significant role. Walking,
-            biking, carpooling, or using public transit helps reduce greenhouse
-            gas emissions. For those who need a vehicle, electric or hybrid cars
-            offer a more sustainable option. In urban areas, supporting
-            infrastructure for alternative transportation is key to promoting
-            more sustainable commuting habits.
-          </p>
-
-          <p>
-            Sustainable living extends to food choices as well. Eating locally
-            sourced, organic, and plant-based foods helps reduce the
-            environmental impact associated with food production and
-            transportation. Reducing food waste and growing your own vegetables
-            when possible are additional steps that support both sustainability
-            and health.
-          </p>
-
-          <p>
-            Ultimately, sustainable living is about being mindful of how our
-            actions affect the planet and the people on it. It's about making
-            conscious decisions—big and small—that promote a healthier
-            environment and a more equitable world. While it may seem
-            overwhelming at first, adopting even a few sustainable practices can
-            lead to meaningful change over time.
-          </p>
-        </div>
-
-        <!-- Tags / Links -->
-        <div class="mt-6 flex flex-wrap items-center gap-2">
-          <span class="text-sm bg-blue-100 text-blue-600 px-2 py-1 rounded"
-            >#Sports</span
-          >
-          <span class="text-sm bg-blue-100 text-blue-600 px-2 py-1 rounded"
-            >#Football</span
-          >
-          <span class="text-sm bg-blue-100 text-blue-600 px-2 py-1 rounded"
-            >#Championship</span
+        <!-- Back Link -->
+        <div class="mt-6 text-center">
+          <a href="/" class="text-blue-600 hover:underline"
+            >← Back to all news</a
           >
         </div>
-      </article>
-
-      <!-- Back Link -->
-      <div class="mt-6 text-center">
-        <a href="/" class="text-blue-600 hover:underline">← Back to all news</a>
-      </div>
-    </main>
-
+      </main>
+      <!-- Right Banner -->
+      <aside class="hidden lg:block w-1/6 pr-16">
+        <div class="sticky top-24 space-y-6" id="right-banner">
+          <!-- Ads here-->
+        </div>
+      </aside>
+    </div>
     <!-- Footer -->
     <footer class="mt-12 p-6 text-center text-sm text-gray-600">
-      © 2025 Daily Pulse News. All rights reserved.
+      © 3025 Daily Pulse News. All rights reserved.
     </footer>
+
+    <script src="articleLoader.js"></script>
+    <script src="addLoader.js"></script>
   </body>
 </html>
