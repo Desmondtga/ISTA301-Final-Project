@@ -2,7 +2,7 @@
 
 ### Group: Desmond Goodman-Ahearn, Matthew Ordaz, Michael Masenheimer, Jonathan Alvarez Contreras
 
-![html, css, and js logos](https://github.com/[Desmondtga]/[ISTA301-Final-Project]/blob/[main]/htmlJsCss.png?raw=true)
+![html, css, and js logos](https://github.com/Desmondtga/ISTA301-Final-Project/blob/ca12bc0533e0f9e31e4bb07f21ed00f6378ff846/imagesForReadme/htmlJsCss.png)
 
 ## Summary of Project:
 
@@ -33,7 +33,7 @@ Editing the file `generateFrom.json` will change the themes of the articles. To 
 
 ## Screen shots
 
-![screen shot 1](https://github.com/[Desmondtga]/[ISTA301-Final-Project]/blob/[main]/Screenshot2025-04-27at9.25.17 PM.png?raw=true)
-![screen shot 2](https://github.com/[Desmondtga]/[ISTA301-Final-Project]/blob/[main]/Screenshot2025-04-27at9.25.53 PM.png?raw=true)
-![screen shot 3](https://github.com/[Desmondtga]/[ISTA301-Final-Project]/blob/[main]/Screenshot2025-04-27at9.26.23 PM.png?raw=true)
-![screen shot 4](https://github.com/[Desmondtga]/[ISTA301-Final-Project]/blob/[main]/Screenshot2025-04-27at9.27.02 PM.png?raw=true)
+![screen shot 1](https://github.com/Desmondtga/ISTA301-Final-Project/blob/ca12bc0533e0f9e31e4bb07f21ed00f6378ff846/imagesForReadme/Screenshot2025-04-27at9.25.17%E2%80%AFPM.png)
+![screen shot 2](https://github.com/Desmondtga/ISTA301-Final-Project/blob/ca12bc0533e0f9e31e4bb07f21ed00f6378ff846/imagesForReadme/Screenshot2025-04-27at9.25.53%E2%80%AFPM.png)
+![screen shot 3](https://github.com/Desmondtga/ISTA301-Final-Project/blob/ca12bc0533e0f9e31e4bb07f21ed00f6378ff846/imagesForReadme/Screenshot2025-04-27at9.26.23%E2%80%AFPM.png)
+![screen shot 4](https://github.com/Desmondtga/ISTA301-Final-Project/blob/ca12bc0533e0f9e31e4bb07f21ed00f6378ff846/imagesForReadme/Screenshot2025-04-27at9.27.02%E2%80%AFPM.png)
