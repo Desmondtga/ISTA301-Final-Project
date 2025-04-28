@@ -6,7 +6,7 @@
 
 ## Summary of Project:
 
-The title of this project is 'Dog Shit AI Slop Website'. The theme is a news website from the year 3025. This website utilizes AI to write slop articles about various topics. Ads on the site are both AI generated and created by hand. This project was built with HTML, JavaScript and Tailwind CSS.
+The title of this project is 'Dog Shit AI Slop Website'. The theme is a news website from the year 3025. This website utilizes AI to write slop articles about various topics. Ads on the site are partially AI generated and created by hand. This project was built with HTML, JavaScript and Tailwind CSS.
 The images are generated with Google imagen and the articles are generated with OpenAI gpt-4.1.
 
 ## Setting up the application
